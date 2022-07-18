@@ -3,7 +3,7 @@ import "../styles/Child.css";
 
 const Selection = (props) => {
   const { applyColor } = props;
-  const [color, setColor] = useState({ background: "" });
+  const [color, setColor] = useState({ background: "blue" });
 
   // useEffect(() => {
   //   console.log("selection child triggered...");
